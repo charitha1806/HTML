@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nykaa Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">NYKAA</div>
+
+    <nav>
+      <a href="#">Makeup</a>
+      <a href="#">Skin</a>
+      <a href="#">Hair</a>
+      <a href="#">Fragrance</a>
+      <a href="#">Brands</a>
+    </nav>
+
+    <input type="text" placeholder="Search products...">
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <img src="banner.jpg" alt="banner">
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <div class="card">
+      <img src="makeup.jpg">
+      <h3>Makeup</h3>
+    </div>
+
+    <div class="card">
+      <img src="skincare.jpg">
+      <h3>Skin Care</h3>
+    </div>
+
+    <div class="card">
+      <img src="haircare.jpg">
+      <h3>Hair Care</h3>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products">
+    <div class="product-card">
+      <img src="product1.jpg">
+      <h4>Lakme Lipstick</h4>
+      <p>₹499</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+</body>
+</html>
